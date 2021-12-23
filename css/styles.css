@@ -29,5 +29,47 @@
   font-weight: 400;
   font-size: 18px;
 }
+* body .main {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #FBEAFF;
+}
+* body .main .mainContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+* body .main .mainContent .mainContentWritten {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+* body .main .mainContent .mainContentWritten .mainContentWritingTitle {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #FBEAFF;
+}
+* body .main .mainContent .mainContentWritten .mainContentWrittenSubtitle {
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FBEAFF;
+}
+* body .main .mainContent .mainContentWritten .mainContentWritingButton {
+  background-color: #845EC2;
+  width: 180px;
+  height: 67px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FBEAFF;
+}
+* body .main .mainContent .mainContentWrittenImage {
+  height: 26rem;
+}
 
 /*# sourceMappingURL=styles.css.map */
