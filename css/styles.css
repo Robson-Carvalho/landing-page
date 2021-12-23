@@ -68,6 +68,10 @@
   font-weight: 400;
   font-size: 24px;
   color: #FBEAFF;
+  transition: background-color 0.2s;
+}
+* body .main .mainContent .mainContentWritten .mainContentWritingButton:hover {
+  background-color: #A178DF;
 }
 * body .main .mainContent .mainContentWrittenImage {
   height: 30rem;
