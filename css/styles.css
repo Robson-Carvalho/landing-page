@@ -9,7 +9,7 @@
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
-  background: linear-gradient(68.15deg, #490382 16.62%, #0E6CC7 85.61%) center center fixed;
+  background: linear-gradient(50deg, #490382 16.62%, #0E6CC7 85.61%) center center fixed;
 }
 * body .header {
   display: flex;
@@ -70,7 +70,7 @@
   color: #FBEAFF;
 }
 * body .main .mainContent .mainContentWrittenImage {
-  height: 26rem;
+  height: 30rem;
 }
 * body .main .secondaryContent {
   display: flex;
@@ -93,6 +93,21 @@
   font-weight: 100;
   font-size: 18px;
   color: #FFF6FF;
+}
+* body .footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+* body .footer .footerImage {
+  width: 16rem;
+}
+* body .footer .footerTitle {
+  font-family: "Staatliches", cursive;
+  font-size: 100px;
+  color: #FBEAFF;
+  letter-spacing: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */
