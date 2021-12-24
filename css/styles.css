@@ -31,7 +31,7 @@
   font-size: 18px;
 }
 * body .main {
-  margin-bottom: 48px;
+  margin-bottom: 96px;
   border-top: 0.4px solid #FBEAFF;
 }
 * body .main .mainContent {
@@ -103,6 +103,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  border-top: 0.4px solid #FBEAFF;
 }
 * body .footer .footerImage {
   width: 16rem;
