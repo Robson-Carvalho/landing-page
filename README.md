@@ -27,6 +27,12 @@ $ cd start index.html
 ```
 <br>
 
+## 🎲 Rodando o sass
+
+```cmd
+sass --watch scss/styles.scss:css/styles.css
+```
+<br>
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
