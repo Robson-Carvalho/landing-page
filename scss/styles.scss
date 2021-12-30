@@ -36,6 +36,8 @@
                 flex-direction: row;
                 align-items: center;
                 justify-content: space-evenly;
+                width: 1500px;
+                margin: 0 auto;
                 .mainContentWritten{
                     display: flex;
                     flex-direction: column;
@@ -63,6 +65,7 @@
                         font-weight: 400;
                         font-size: 24px;
                         color: #FBEAFF;
+                        cursor: pointer;
                         transition: background-color .2s;
 
                         &:hover{
@@ -71,7 +74,7 @@
                     }
                 }
                 .mainContentWrittenImage{
-                    height: 35rem;
+                    height: 40rem;
                 }
             }
             .secondaryContent{
